@@ -1,0 +1,44 @@
+% !Mode:: "TeX:UTF-8"
+%!TEX program = xelatex
+
+\documentclass[a4paper,12pt,UTF8]{ctexart}
+%\documentclass[a4paper,12pt]{article}%A4纸，正文为小四号字，对应12pt
+
+\usepackage{bm}%粗黑斜体的宏包，可以很方便表示矢量
+\usepackage{amsmath}%数学公式换行、对齐
+% \usepackage{gensymb}%调用常用的数学符号
+\usepackage{amssymb}%调用常用的数学符号
+
+\usepackage{color}%设置字体颜色
+
+
+\begin{document}
+\section{力学卷}
+\begin{enumerate}
+    \item 
+    p38，推导式（2.30）第一步最后一项：
+    \[
+        r\frac{\mathrm{d}\theta}{\mathrm{d}t}\frac{\mathrm{d}\hat{\theta}}{\mathrm{d}t}
+    \]
+    \textcolor[rgb]{1,0,0}{应改为}
+    \[
+        r\frac{\mathrm{d}\theta}{\mathrm{d}t}\frac{\mathrm{d}\hat{\bm{\theta}}}{\mathrm{d}t}
+        \]
+    \item 
+    p40，$2\pi f=\omega$ 前面：\par
+    “但率频$f$的定义”
+    \textcolor[rgb]{1,0,0}{应改为}
+    “但频率$f$的定义”
+    \item 
+    p44，2相对1的位置矢量
+    \[
+        \vec{\bm{r_1}}-\vec{\bm{r_2}}
+    \]
+    \textcolor[rgb]{1,0,0}{应改为}
+    \[
+        \vec{\bm{r_2}}-\vec{\bm{r_1}}
+    \]
+
+
+\end{enumerate}
+\end{document}}

@@ -1,0 +1,873 @@
+%!TeX root =main.tex
+ %!TEX program = XeLaTeX
+% !Mode:: "TeX:UTF-8"
+
+
+\section{矢量}
+
+\subsection{位置矢量}
+\begin{enumerate}[(a)]
+%%%%%%  1.1 题  %%%%%%%%%%%%%%	
+	\item
+	因为是东北方向，即矢量$\bm{r}$ 与x轴正方向、y轴正方向的夹角均为45\degree，所以矢量$\bm{r}$在x轴、y轴上的投影大小是一样的。即$r_x = r_y$，\\
+所以有
+		$$ {r_x}^2 + {r_y}^2 = 2 {r_x}^2 = 10^2 $$
+		$$  x = 5\sqrt{2} = y $$
+因此
+		$$ \bm{r} = 5 \sqrt{2} \hat{\bm{x}} + 5 \sqrt{2} \hat{\bm{y}} + 2 \hat{\bm{z}} $$
+		$$ \lvert{\bm{r}}\rvert = \sqrt{\sqrt{50}^2 + \sqrt{50}^2 + 2^2} = \sqrt{104} $$
+		
+		设$\bm{r} $的方向为 $ \hat{\bm{r}} = A\hat{\bm{x}} + B\hat{\bm{y}} + C\hat{\bm{z}} $ ，\\
+		则有
+		\[
+		 \left\{
+		 \begin{aligned}
+		&\frac{B}{A} = 1 \\
+		&\frac{C}{A} = \frac{\sqrt{2}}{5} \\
+		&A^2+B^2+C^2 = 1^2
+		 \end{aligned}
+		 \right.
+		 \Rightarrow \quad
+		\left\{
+		 \begin{aligned}
+		&A = \frac{5}{\sqrt{52}} \\
+		&B = \frac{5}{\sqrt{52}} \\
+		&C = \sqrt{\frac{2}{52}}
+		 \end{aligned}
+		 \right.
+		\]
+
+%%%%%%  1.2 题  %%%%%%%%%%%%%%
+
+	\item
+	因为是东南方向，即矢量$\bm{r}$ 与x轴正方向、y轴负方向的夹角均为45\degree，所以矢量$\bm{r}$在x轴、y轴上的投影大小相等，方向相反。即$r_x = -r_y$，\\
+所以有
+		$$ {r_x}^2 + {r_y}^2 = 2 {r_x}^2 = 5^2 $$
+		$$  x = \frac{5\sqrt{2}}{2} $$
+		$$  y = -\frac{5\sqrt{2}}{2} $$
+因此
+		$$ \bm{r} =\frac{5\sqrt{2}}{2} \hat{\bm{x}} -\frac{5\sqrt{2}}{2} \hat{\bm{y}} - 5 \hat{\bm{z}} $$
+		$$ \lvert{\bm{r}}\rvert = \sqrt{{\frac{5\sqrt{2}}{2}}^2 +{\frac{5\sqrt{2}}{2}}^2 + {-5}^2} = 5\sqrt{2} $$
+		
+		设$\bm{r} $的方向为 $ \hat{\bm{r}} = A\hat{\bm{x}} + B\hat{\bm{y}} + C\hat{\bm{z}} $ ，\\
+		则有
+		\[
+		 \left\{
+		 \begin{aligned}
+		&\frac{B}{A} = -1 \\
+		&\frac{C}{A} =-\sqrt{2} \\
+		&A^2+B^2+C^2 = 1^2
+		 \end{aligned}
+		 \right.
+		 \Rightarrow \quad
+		\left\{
+		 \begin{aligned}
+		&A = \frac{1}{2} \\
+		&B = -\frac{1}{2} \\
+		&C = -\frac{\sqrt{2}}{2}
+		 \end{aligned}
+		 \right.
+		\]
+		
+%%%%%%  1.3 题  %%%%%%%%%%%%%%	
+		
+	\item
+	因为是西北方向，即矢量$\bm{r}$ 与x轴负方向、y轴正方向的夹角均为45\degree，所以矢量$\bm{r}$在x轴、y轴上的投影大小相等，方向相反。即$-r_x = r_y$，\\
+所以有
+		$$ {r_x}^2 + {r_y}^2 = 2 {r_y}^2 = 1^2 $$
+		$$  x = -\frac{\sqrt{2}}{2} $$
+		$$  y = \frac{\sqrt{2}}{2} $$
+因此
+		$$ \bm{r} =-\frac{\sqrt{2}}{2} \hat{\bm{x}} + \frac{\sqrt{2}}{2} \hat{\bm{y}} + 6 \hat{\bm{z}} $$
+		$$ \lvert{\bm{r}}\rvert = \sqrt{{-\frac{\sqrt{2}}{2}}^2 +{\frac{\sqrt{2}}{2}}^2 + 6^2} = \sqrt{37} $$
+		
+		设$\bm{r} $的方向为 $ \hat{\bm{r}} = A\hat{\bm{x}} + B\hat{\bm{y}} + C\hat{\bm{z}} $ ，\\
+		则有
+		\[
+		 \left\{
+		 \begin{aligned}
+		&\frac{B}{A} = -1 \\
+		&\frac{C}{A} =-6 \sqrt{2} \\
+		&A^2+B^2+C^2 = 1^2
+		 \end{aligned}
+		 \right.
+		 \Rightarrow \quad
+		\left\{
+		 \begin{aligned}
+		&A = -\frac{1}{\sqrt{74}} \\
+		&B = \frac{1}{\sqrt{74}} \\
+		&C = 12\sqrt{37}
+		 \end{aligned}
+		 \right.
+		\]
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{矢量的分量}
+\begin{enumerate}[(a)]
+%%%%%% 2.1 题  %%%%%%%%%%%%%%	
+	\item
+	因为是东南方向，即矢量$\bm{r}$ 与x轴正方向、y轴负方向的夹角均为45\degree，所以矢量$\bm{r}$在x轴、y轴上的投影大小相等，方向相反。即$r_x = -r_y$，\\
+所以有
+		$$ {r_x}^2 + {r_y}^2 = 2 {r_x}^2 = 5^2 $$
+		$$  x = \frac{5\sqrt{2}}{2} $$
+		$$  y = -\frac{5\sqrt{2}}{2} $$
+因此
+		$$ \bm{r} =\frac{5\sqrt{2}}{2} \hat{\bm{x}} -\frac{5\sqrt{2}}{2} \hat{\bm{y}} $$
+		
+		
+%%%%%%  2.2 题  %%%%%%%%%%%%%%		
+	\item
+	因为位置矢量$\bm{r}$与铅直线方向，即z轴的夹角为45\degree，水平分量方向为北60\degree 西，所以，设位置矢量$\bm{r} = -A\hat{\bm{x}} + B\hat{\bm{y}} + C\hat{\bm{z}}$，其中，$A,  B,  C$均为实数，且A，B，C应该满足的关系
+		\[
+		\left\{
+		\begin{aligned}
+		&\frac{B}{A} = -\sin 60\degree = - \frac{\sqrt{3}}{2} \\
+		&\frac{\sqrt{A^2+B^2}}{C} =\cos 45\degree=-\frac{\sqrt{2}}{2} \\
+		&\sqrt{A^2+B^2+C^2} = 15
+		\end{aligned}
+		\right.
+		 \Rightarrow \quad
+		\left\{
+		 \begin{aligned}
+		&A = -\sqrt{\frac{300}{7}} \\
+		&B = \sqrt{\frac{225}{7}} \\
+		&C = 5\sqrt{6}
+		 \end{aligned}
+		 \right.
+		\]
+即 位置矢量$\bm{r} = -\sqrt{\frac{300}{7}} \hat{\bm{x}} + \sqrt{\frac{225}{7}} \hat{\bm{y}} +5\sqrt{6} \hat{\bm{z}}$
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{矢量的相加}
+\begin{enumerate}[(a)]
+	\item 如下图（\ref{2_3a}）所示。
+	\item 如下图（\ref{2_3b}）所示。
+	\item 如下图（\ref{2_3c}）所示。当一对矢量为另一对矢量的倍数时，不妨设为$ m $倍，则这对矢量相加的结果为另一对矢量相加结果的$ m $倍。证明如下：
+
+设
+	\[
+	\begin{aligned}
+	&\bm{a} = (x_1,y_1), \bm{b} = (x_2,y_2), \\
+	&\bm{c} = m\bm{a} = (mx_1,my_1), \\
+	&\bm{d} = m\bm{b} = (m x_2,m y_2).\\
+	\end{aligned}
+	 \]
+则有
+	\[
+	\begin{aligned}
+	\bm{g} &= \bm{a} + \bm{b} = (x_1 + x_2, y_1+y_2).\\
+	\bm{h} &= \bm{c} + \bm{d} \\
+			&= (mx_1 + mx_2, my_1 + my_2) \\
+			&=m(x_1+x_2, y_1+y_2) \\
+			&=m\bm{g}
+	\end{aligned}
+	\]
+证毕。
+\end{enumerate}
+
+%%%%以下画图时间
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]{
+	\begin{minipage}[t]{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_3a.png}
+	\label{2_3a}
+	\end{minipage}
+	}
+	\subfloat[]{
+	\begin{minipage}[t]{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_3b.png}
+	\label{2_3b}
+	\end{minipage}
+	}sss
+	\\	
+	\subfloat[]{
+	\begin{minipage}[t]{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_3c.png}
+	\label{2_3c}
+	\end{minipage}
+	}
+	\caption{}
+	\label{2_3}
+\end{figure}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{矢量乘标量}
+\begin{enumerate}[(a)]
+	\item 如下图（\ref{2_4a}）所示。
+	\item 如下图（\ref{2_4b}）所示。
+	\item 如下图（\ref{2_4c}）所示。
+	\item 根据题意可以知道，矢量$\bm{A}$，$\bm{B}$ 分别为
+	\[
+	\begin{aligned}
+	&\bm{A} = (2 \cos20\degree,2\sin20\degree) \approx  (1.88,0.68),\\
+	&\bm{B} = (3.5 \cos40\degree,-3.5\sin40\degree) \approx (2.68,-2.25)
+	\end{aligned}
+	\]
+则,对于（b）小问，
+\[
+\begin{aligned}
+&\bm{C} = -2\bm{A} = (-3.76,-1.37),\bm{D} = 3\bm{B} = (8.04,-6.75)\\
+&\bm{E} = \bm{C} + \bm{D} = (4.28,-8.12)
+\end{aligned}
+\]
+
+对于（c）小问，可以设$ a \bm{A} + b \bm{B} = (0,10) $，则列出如下方程组（\ref{2_4d_e}）：
+\begin{equation}
+\left\{
+\begin{aligned}
+&aA_x + bB_x = 0 \\
+&aA_y + bB_y = 10
+\end{aligned}
+\right.
+\label{2_4d_e}
+\end{equation}
+解得
+\[
+\left\{
+\begin{aligned}
+&a \approx 4.42 \\
+&b \approx -3.10
+\end{aligned}
+\right.
+\]
+\end{enumerate}
+
+%%%%以下画图时间
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]{
+	\begin{minipage}[t]{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_4a.png}
+	\label{2_4a}
+	\end{minipage}
+	}
+	\subfloat[]{
+	\begin{minipage}[t]{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_4b.png}
+	\label{2_4b}
+	\end{minipage}
+	}
+	\\
+	\subfloat[]{
+	\begin{minipage}[t]{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_4c.png}
+	\label{2_4c}
+	\end{minipage}
+	}
+	\caption{}
+	\label{2_4}	
+\end{figure}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{二矢量的标量积和矢量积}
+\begin{enumerate}[(a)]
+%%%%%% 5.1 题  %%%%%%%%%%%%%%	
+	\item
+	\[
+	\begin{aligned}
+	&|\bm{a}| = \sqrt{3^2+4^2+(-5)^2} = \sqrt{50} = 5\sqrt{2} \\
+	&|\bm{b}| = \sqrt{(-1)^2+2^2+6^2} = \sqrt{41}
+	\end{aligned}
+	\]
+%%%%%% 5.2 题  %%%%%%%%%%%%%%	
+	\item
+	\[
+	\bm{a}\cdot\bm{b} = a_x b_x + a_y b_y + a_z b_z = 3 \cdot (-1) + 4 \cdot 2 + (-5) \cdot 6 =  -5
+	\]
+%%%%%% 5.3 题  %%%%%%%%%%%%%%	
+	\item
+	$\bm{a},\ \bm{b}$之间的夹角的余弦值为
+	\[
+	\cos<\bm{a},\bm{b}> = \frac{\bm{a}\cdot\bm{b}}{|\bm{a}||\bm{b}|} = \frac{-25}{\sqrt{50} \cdot \sqrt{41}} = \frac{-5}{\sqrt{82}} \approx -0.552
+	\]
+	所以，$\bm{a},\ \bm{b}$之间的夹角为
+	\[
+	\arccos(\frac{-5}{\sqrt{82}}) \approx 123.52\degree
+	\]
+%%%%%% 5.4 题  %%%%%%%%%%%%%%	
+	\item
+	\[
+	\begin{aligned}
+	&\frac{a_x}{|\bm{a}|} = \frac{3}{5\sqrt{2}},\quad \frac{a_y}{|\bm{a}|} = \frac{4}{5\sqrt{2}}, \quad
+	\frac{a_z}{|\bm{a}|} = \frac{-2}{\sqrt{2}} \\
+	&\frac{b_x}{|\bm{b}|} = \frac{-1}{\sqrt{41}}, \quad \frac{b_y}{|\bm{b}|} = \frac{2}{\sqrt{41}}, \quad
+	\frac{b_z}{|\bm{b}|} = \frac{6}{\sqrt{41}}
+	\end{aligned}
+	\]
+%%%%%% 5.5题  %%%%%%%%%%%%%%	
+	\item
+	\[
+	\begin{aligned}
+	&\bm{a} + \bm{b} = (3-1)\bm{\hat{x}} + (4+2)\bm{\hat{y}} + (-5+6)\bm{\hat{z}} = 2\bm{\hat{x}} + 6\bm{\hat{y}} + \bm{\hat{z}} \\
+	&\bm{a} - \bm{b} = (3+1)\bm{\hat{x}} + (4-2)\bm{\hat{y}} + (-5-6)\bm{\hat{z}} = 4\bm{\hat{x}} + 2\bm{\hat{y}} -11\bm{\hat{z}}
+	\end{aligned}
+	\]	
+%%%%%% 5.6题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	\bm{a} \times \bm{b}
+	& =
+	\begin{vmatrix}
+		 x & y & z \\
+ 		3 & 4 & -5 \\
+ 		-1 & 2 & 6 \\
+ 	\end{vmatrix} \\
+	& = (4 \cdot 6)\bm{\hat{x}} + (-1) \cdot(-5)\bm{\hat{y}} + (3 \cdot 2)\bm{\hat{z}} - \\
+	&\quad [(-5 \cdot 2)\bm{\hat{x}} + (3 \cdot 6)\bm{\hat{y}} + (-1 \cdot 4)\bm{\hat{z}}] \\
+	& = 34\bm{\hat{x}} - 13\bm{\hat{y}} + 10\bm{\hat{z}}
+	\end{aligned}
+	\]
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{矢量代数}
+\begin{enumerate}[(a)]
+%%%%%% 6.1题  %%%%%%%%%%%%%%
+	\item 因为
+	\[
+	\begin{aligned}
+	(\bm{a} + \bm{b}) + (\bm{a} - \bm{b})
+	&= (11+(-5))\bm{\hat{x}} + (-1 + 11)\bm{\hat{y}} + (5+9)\bm{\hat{z}} \\
+	&= 6 \bm{\hat{x}} + 10\bm{\hat{y}} + 14\bm{\hat{z}} \\
+	&= 2\bm{a}
+	\end{aligned}
+	\]
+	所以
+	\[
+	\begin{aligned}
+	&\bm{a} = 3 \bm{\hat{x}} + 5\bm{\hat{y}} + 7\bm{\hat{z}}  \\
+	&\bm{b} = \bm{a} + \bm{b} - \bm{a} = 8 \bm{\hat{x}} - 4\bm{\hat{y}} - 2\bm{\hat{z}}
+	\end{aligned}
+	\]
+%%%%%% 6.2题  %%%%%%%%%%%%%%
+	\item
+	因为$ \bm{a} $ 与 $ \bm{a} + \bm{b} $ 的夹角的余弦值为
+	\[
+	\begin{aligned}
+	\cos<\bm{a},\bm{b}> &= \frac{\bm{a} \cdot (\bm{a} + \bm{b})}{|\bm{a}||(\bm{a} + \bm{b})|}
+						    &=\frac{3 \cdot 11 + (-1) \cdot 5 + 5 \cdot 7}{\sqrt{3^2+5^2+7^2} \cdot \sqrt{11^2+(-1)^2+5^2}} & \approx 0.57
+	\end{aligned}
+	\]
+	所以$ \bm{a} $ 与 $ \bm{a} + \bm{b} $ 的夹角为
+	\[
+	\arccos(0.57) \approx 55.22\degree
+	\]
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{速度的矢量加法}
+\begin{enumerate}[(a)]
+%%%%%% 7.1题  %%%%%%%%%%%%%%
+	\item 由题意可以设
+	\[
+	\begin{aligned}
+	&\bm{v_\text{船}} = 2.5\bm{\hat{y}} \\
+	&\bm{v_\text{水}} = \bm{\hat{x}}
+	\end{aligned}
+	\]
+	则 $$ \bm{v_\text{实际}} = \bm{v_\text{船}} + \bm{v_\text{水}} = \bm{\hat{x}} +2.5 \bm{\hat{y}} $$
+	因此，他实际的前进方向与原定的径直方向的夹角以及速度大小分别为
+	\[
+	\begin{aligned}
+	\arccos(\cos<\bm{v_\text{实际}},\bm{v_\text{船}}>) = \arccos\left(\frac{\bm{v_\text{实际}} \cdot \bm{v_\text{船}}}{|\bm{v_\text{实际}}| |\bm{v_\text{船}}|}\right) = \frac{6.25}{\sqrt{6.25} \cdot \sqrt{7.25}} \approx 68.19\degree \\
+	|\bm{v_\text{实际}}| = \sqrt{1^2 + 2.5^2} = \sqrt{7.25} \, \textrm{m/s} \approx 2.69 \, \textrm{m/s}
+	\end{aligned}
+	\]
+%%%%%% 7.2题  %%%%%%%%%%%%%%
+	\item 设此人的前进的速度$ \bm{v_0} $ 满足$ \bm{v_0} = a\bm{\hat{x}} + b\bm{\hat{y}} $时，能够与水流垂直的方向前进，前进速度为$ \bm{v_c} = c\bm{\hat{y}} $，则速度$ \bm{v_0} $应当满足
+	\[
+	\begin{aligned}
+	&\bm{v_0} + \bm{v_\text{水}} = \bm{v_c} \\
+	\Rightarrow &(a + 1)\bm{\hat{x}} + b\bm{\hat{y}} = c\bm{\hat{y}} \\
+	\end{aligned}
+	\]
+	即
+	\[ a = -1,\; b = c. \]
+	所以
+	\[	\bm{v_0} = - \bm{\hat{x}} + c \bm{\hat{y}}	\]
+	前进方向与水流方向的夹角余弦值为
+	\[
+	\cos(\bm{v_0},\bm{v_\text{水}}) = \frac{\bm{v_0} \cdot \bm{v_\text{水}}}{|\bm{v_0}| |\bm{v_\text{水}}|} = \frac{c-1}{\sqrt{c^2+1}}
+	\]
+\end{enumerate}
+
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{速度的合成}
+设 x 轴正方向为东，y轴正方向为北，则风速$ v_1$ 满足
+\[
+\bm{v_1} = \sqrt{\frac{30^2}{2}}\bm{\hat{x}} -  \sqrt{\frac{30^2}{2}}\bm{\hat{y}} = 15\sqrt{2}\bm{\hat{x}} - 15\sqrt{2}\bm{\hat{y}}
+\]
+飞行员满足要求的最终的速度$ \bm{v} $满足
+\[
+\bm{v} = v\bm{\hat{x}},\; v = \frac{200}{(\frac{40}{60})} \textrm{km/h} = 300 \  \textrm{km/h}
+\]
+所以，飞行员的飞行速度$ \bm{v_0} $ 应为
+\[
+\bm{v_0} = \bm{v} - \bm{v_1} = (300 - 15\sqrt{2})\bm{\hat{x}} - 15\sqrt{2}\bm{\hat{y}} \approx 278.78\bm{\hat{x}} + 21.21\bm{\hat{y}}
+\]
+$ \bm{v_0} $与x轴的夹角$ \alpha $ 为
+\[
+\alpha = \frac{v_{0x}}{|\bm{v_0}|} = \arccos(\frac{300 - 15\sqrt{2}}{\sqrt{(300 - 15\sqrt{2})^2 + ( - 15\sqrt{2})^2}}) \approx 4.351\degree
+\]
+
+若以空气的流动方向为x轴正方向，即将坐标系逆时针旋转$ \frac{\pi}{4} $，则飞行员相当于与流动空气的速度矢量$ \bm{v_{00}} $变为
+ \[
+ \bm{v_{00}} = |\bm{v_0}|\cos(\alpha + \frac{\pi}{4})\bm{\hat{x}} + |\bm{v_0}|\sin(\alpha + \frac{\pi}{4})\bm{\hat{y}} \approx 182.13\bm{\hat{x}} + 212.13\bm{\hat{y}}
+ \]
+%%%
+%%%
+%%%
+%%%
+%%%
+
+\subsection{矢量运算，相对位置矢量}
+\begin{enumerate}[(a)]
+%%%%%% 9.1题  %%%%%%%%%%%%%%
+	\item
+	两个粒子的位置如下图（\ref{2_9a}）。粒子2 相对 粒子1的位移$ \bm{r} $ 为
+	\[
+	\bm{r} = \bm{r_2} - \bm{r_1} = -2\bm{\hat{x}} + 7\bm{\hat{y}} - 3\bm{\hat{z}}
+	\]
+%%%%%% 9.2题  %%%%%%%%%%%%%%	
+	\item
+	\[
+	\begin{aligned}
+	&|\bm{r_1}| = \bm{r_1}\cdot\bm{r_1} = \sqrt{4^2+3^2+8^2} \approx 9.43 \\
+	&|\bm{r_2}| = \bm{r_2}\cdot\bm{r_2} = \sqrt{2^2+10^2+5^2} \approx 11.36 \\
+	&|\bm{r}| = \bm{r}\cdot\bm{r} = \sqrt{(-2)^2+7^2+(-3)^2} \approx 7.87
+\end{aligned}
+	\]
+%%%%%% 9.3题  %%%%%%%%%%%%%%	
+	\item
+	设$ \bm{r_1},\;\bm{r_2} $的夹角$ \theta_1 = \arccos(t_1)$，$ \bm{r_1},\;\bm{r} $的夹角$ \theta_2 = \arccos(t_2)$，$ \bm{r_2},\;\bm{r} $的夹角$ \theta_3 = \arccos(t_3)$，则$ t_1,\;t_2,\;t_3 $分别为
+	\[
+	\begin{aligned}
+	&t_1 = \cos<\bm{r_1},\bm{r_2}> = \frac{\bm{r_1}\cdot\bm{r_2}}{|\bm{r_1}| |\bm{r_2}|} =  \frac{8+30+40}{9.43\cdot 11.36} \approx 0.728, \\
+	&t_2 =  \cos<\bm{r_1},\bm{r}> = \frac{\bm{r_1}\cdot\bm{r}}{|\bm{r_1}| |\bm{r}|} =  \frac{-8+21-24}{9.43\cdot 7.87} \approx -0.148, \\
+	&t_3 =  \cos<\bm{r_2},\bm{r}> = \frac{\bm{r_2}\cdot\bm{r}}{|\bm{r_2}| |\bm{r}|} =  \frac{-4+70-15}{11.36\cdot 7.87} \approx 0.57.
+\end{aligned}
+	\]
+	所以
+	\[
+	\begin{aligned}
+	&\theta_1 = \arccos(0.728) \approx 43.28\degree, \\
+	&\theta_2 = \arccos(0.148) \approx 98.51\degree, \\
+	&\theta_3 = \arccos(-0.57) \approx 55.25\degree.
+\end{aligned}
+	\]
+%%%%%% 9.4题  %%%%%%%%%%%%%%
+	\item
+	$ \bm{r} $ 在$ \bm{r_1} $ 上的投影为
+	\[
+	|\bm{r}|\cos(\theta_2) = \frac{\bm{r} \cdot \bm{r_1}}{|\bm{r_1}|} = \frac{4\cdot(-2) + 3\cdot7 + 8\cdot(-3)}{9.43} = -1.16	
+	\]
+%%%%%% 9.5题  %%%%%%%%%%%%%%	
+	\item
+	\[
+	\begin{aligned}
+	\bm{r_1} \times \bm{r_2} &=
+	\begin{vmatrix}
+	\bm{\hat{x}} & \bm{\hat{y}} & \bm{\hat{z}} \\
+	4 & 3 & 8 \\
+	2 & 10 & 5
+\end{vmatrix} \\
+	&= 15\bm{\hat{x}} + 16\bm{\hat{y}} + 40\bm{\hat{z}} - (80\bm{\hat{x}} + 20\bm{\hat{y}} + 6\bm{\hat{z}}) \\
+	&= -65\bm{\hat{x}} - 4\bm{\hat{y}} + 34\bm{\hat{z}}
+\end{aligned}
+	\]
+\end{enumerate}
+
+
+%%%%以下画图时间
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_9a.png}
+	\caption{}
+	\label{2_9a}
+\end{figure}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{两个质点最接近的情况}
+根据题意，可以设质点1和质点2的位置矢量$ \bm{r_1},\;\bm{r_2}$分别是
+\[
+\bm{r_1} = (-3 + 2t)\bm{\hat{x}},\; \bm{r_2} = (-3 + 3t)\bm{\hat{y}}
+\]
+\begin{enumerate}[(a)]
+%%%%%% 10.1题  %%%%%%%%%%%%%%	
+	\item
+	质点2相对质点1的位置矢量$ \bm{r_2} - \bm{r_1} $为
+	\[
+	\bm{r_2} - \bm{r_1} = (3 - 2t)\bm{\hat{x}} + (-3 + 3t)\bm{\hat{y}}
+	\]
+%%%%%% 10.2题  %%%%%%%%%%%%%%	
+	\item
+	当$r = | \bm{r_2} - \bm{r_1} |$取最小值时，两个质点的位置最接近,
+	\[
+	r = |\bm{r_2} - \bm{r_1}| = (3-2t)^2 + (-3+3t)^2 = 13t^2 - 30t + 18
+	\]
+	这是以时间t为自变量的二次函数$r(t)$，当$r'(t) = 26t - 30 = 0$，函数有最小值，由此解得$ t = \frac{15}{13}$ s，此时两质点之间的距离$ r = \frac{9}{13}$ cm，质点1的位置$\bm{r_1}$和质点2的位置$\bm{r_2}$分别是
+	\[
+	\bm{r_1} = \frac{9}{13}\bm{\hat{x}},\;\bm{r_2} = \frac{6}{13}\bm{\hat{y}}
+	\]
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{立方体的体对角线}
+在正方体上建立如图（\ref{2_11}）所示的直角坐标系，并选择如图所示的两条体对角线，则相应的顶点O、B、C、D的坐标为（0,0,0）、（1,1,1）、（0,1,0）、（1,0,1），则求两条体对角线的夹角可以变为求矢量$\bm{OB}$和矢量$\bm{CD}$的夹角。
+\[
+\begin{aligned}
+\bm{OB} = (1,1,1),\quad \bm{CD} = (1,-1,1),\\
+\cos<\bm{OB},\bm{CD})>= \frac{\bm{OB}\cdot\bm{CD}}{|\bm{OB}| |\bm{CD}|} = \frac{1}{\sqrt{3}\cdot \sqrt{3}} = \frac{1}{3}
+\end{aligned}
+\]
+所以，正方体内两条体对角线的夹角为$\arccos\left(\frac{1}{3}\right)$
+
+
+%%%%以下画图时间
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_11.png}
+	\caption{}
+	\label{2_11}
+\end{figure}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{$\bm{a}\bot \bm{b}$的条件}
+证明：
+\[
+\begin{aligned}
+&\because \quad |\bm{a} + \bm{b}| = |\bm{a} - \bm{b}| \\
+&\therefore \quad (\bm{a} + \bm{b})^2 = (\bm{a} - \bm{b})^2 \Rightarrow a^2 + b^2 + 2\bm{a}\cdot\bm{b} - (a^2 + b^2 - 2\bm{a}\cdot\bm{b}) = 0 \\
+&\therefore \quad 4\bm{a}\cdot\bm{b} = 0 \rightarrow \bm{a}\cdot\bm{b} = 0 \Leftrightarrow  |a| |b|\cos<a,b> = 0
+\end{aligned}
+\]
+当$ |\bm{a}|=0$ 或者 $|\bm{b}|=0 $，即其中至少有一个为零向量时，$ \bm{a} \bot \bm{b} $恒成立；当$|\bm{a},\;|\bm{b}|$均不为零时，则有$\cos<\bm{a},\bm{b}>=0$，即$\bm{a},\;\bm{b}$之间的夹角为90\degree。
+
+综上，当$\quad |\bm{a} + \bm{b}| = |\bm{a} - \bm{b}|$时，有$\bm{a}\bot \bm{b}$
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{平行矢量和垂直矢量}
+\[
+\begin{aligned}
+&\bm{B}\bot\bm{A} \Leftrightarrow \bm{B} \cdot \bm{A} = 0  \Rightarrow 5x + 18 = 0 \Rightarrow x = -\frac{18}{5} \\
+&\bm{C}\bot\bm{A} \Leftrightarrow \bm{C} \cdot \bm{A} = 0 \Rightarrow 10 + 6y = 0 \Rightarrow y = -\frac{5}{3} \\
+&\because \bm{B} = -\frac{18}{5}\bm{\hat{x}} + 3\bm{\hat{y}} = -\frac{5}{9}(2\bm{\hat{x}} - \frac{5}{3}\bm{\hat{y}}) = -\frac{5}{9}\bm{C} \\
+&\therefore \quad \bm{B} \parallel \bm{C}
+\end{aligned}
+\]
+三维空间中，与第三个矢量互相垂直的两个矢量不一定相互平行，如直角坐标系则是相互垂直，也可能是没有任何关系。
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{平行六面体的体积}
+平行六面体的体积$V$应为
+\[
+\begin{aligned}
+V
+& = (\bm{\hat{x}} + 2\bm{\hat{y}})\times4\bm{\hat{y}} \cdot (\bm{\hat{y}} + 3\bm{\hat{z}}) \\
+& =
+\begin{vmatrix}
+\bm{\hat{x}} & \bm{\hat{y}} & \bm{\hat{z}} \\
+1 & 2 & 0 \\
+0 & 4 & 0
+\end{vmatrix}
+\cdot  (\bm{\hat{y}} + 3\bm{\hat{z}}) \\
+& = 4\bm{\hat{z}} \cdot (\bm{\hat{y}} + 3\bm{\hat{z}}) \\
+& = 12
+\end{aligned}
+\]
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{力的平衡}
+\begin{enumerate}[(a)]
+%%%%%% 15.1题  %%%%%%%%%%%%%%
+	\item
+	证明：
+	因为
+	\[
+	\bm{F_R} = \bm{F_1} + \bm{F_2} + \bm{F_3} = 0 \Rightarrow
+	\bm{F_1} + \bm{F_2} = -\bm{F_3}
+	\]
+	则两边同时平方，有
+	\[
+	\bm{F_1}^2 + 2\bm{F_1} \cdot \bm{F_2} + \bm{F_2}^2 = \bm{F_3}^2
+	\]
+	即
+	\[
+	\begin{aligned}
+	\bm{F_1}^2  + \bm{F_2}^2 - \bm{F_3}^2
+	&= - 2\bm{F_1} \cdot \bm{F_2} \\
+	&= -2|\bm{F_1}| |\bm{F_2}|\cos<\bm{F_1},\bm{F_2}>  \\
+	&= 2|\bm{F_1}| |\bm{F_2}|\cos<\bm{F_1},\bm{F_2}> \\
+	&\Rightarrow \cos<\bm{F_1},\bm{F_2}> = \frac{\bm{F_1}^2  + \bm{F_2}^2 - \bm{F_3}^2}{2|\bm{F_1}| |\bm{F_2}|}
+\end{aligned}
+	\]
+	这正是三角形的余弦定理，所以$\bm{F_1},\;\bm{F_2},\;\bm{F_3}$一定构成三角形
+%%%%%% 15.2题  %%%%%%%%%%%%%%
+	\item
+	若题设成立，应有
+	\[
+	\bm{F_1} \times \bm{F_2} \cdot \bm{F_3} = 0.
+	\]
+	根据（a）可知，$\bm{F_1},\;\bm{F_2},\;\bm{F_3}$一定构成三角形，即有
+	\[
+	\bm{F_1} \times \bm{F_2} \cdot \bm{F_3} \ne 0.
+	\]
+	与题设的推论矛盾，故题设不成立。
+%%%%%% 15.3题  %%%%%%%%%%%%%%
+	\item
+	根据（a）的结论，拉力$bm{T}$，垂直向下的力$\bm{F_{1}}$ 以及需要施加的力$\bm{F_{x}}$构成一个如图（\ref{2_15c}）所示的三角形，因此
+	\[
+	\cos(\beta) = \frac{\bm{F_1}^2  + \bm{T}^2 - \bm{F_x}^2}{2|\bm{F_1}| |\bm{T}|} \approx 0.995.
+	\]
+	将$ \bm{F_{1}} = 10 $N，$\bm{T} = 15$ N代入上式计算得：
+	\[
+	\bm{F_x} \approx 5.15\; \textrm{N},\quad
+	\cos<\bm{T},\bm{F_x}> = \frac{\bm{F_x}^2  + \bm{T}^2 - \bm{F_1}^2}{2|\bm{F_x}| |\bm{T}|} \approx 0.982.
+	\]
+\end{enumerate}
+
+
+%%%%以下画图时间
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_15c.png}
+	\caption{}
+	\label{2_15c}
+\end{figure}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{力所做的功}
+\begin{enumerate}[(a)]
+%%%%%% 16.1题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	\because \quad
+	&\bm{F} = \bm{F_1} + \bm{F_2} = 5\bm{\hat{x}} - 3\bm{\hat{y}} + \bm{\hat{z}}, \\
+	&\bm{r_{AB}} = -0.2\bm{\hat{x}} - 0.15\bm{\hat{y}} + 0.07\bm{\hat{z}}, \\
+	\therefore \quad
+	&W = \bm{F} \cdot \bm{r_{AB}} = (5 \cdot (-0.2) + (-3)\cdot (-5) + 1 \cdot 0.07) \textrm{J} = -0.48\; \textrm{J}.
+\end{aligned}
+	\]
+%%%%%% 16.2题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	W_1 = \bm{F_1} \cdot \bm{r_{AB}} = (1 \cdot (-0.2) + 2 \cdot (-0.15) + 3 \cdot 0.07)\textrm{J} = -0.29\;\textrm{J}, \\
+	W_2 = (4 \cdot (-0.2) -5 \cdot (-0.15) -2 \cdot 0.07)\textrm{J} = W - W_1= -0.19\;\textrm{J} .
+\end{aligned}
+	\]
+%%%%%% 16.3题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	&\bm{r_{BA}} =  0.2\bm{\hat{x}} + 0.15\bm{\hat{y}} - 0.07\bm{\hat{z}}, \\
+	 &W = \bm{F} \cdot \bm{r_{BA}} = (5 \cdot 0.2 + (-3)\cdot 0.15 + 1 \cdot (-0.07)) \textrm{J} = 0.48\; \textrm{J}
+\end{aligned}
+	\]
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{绕一点的力矩}
+\begin{enumerate}[(a)]
+%%%%%% 17.1题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	\bm{r} &=  7\bm{\hat{x}} + 3\bm{\hat{y}} + \bm{\hat{z}}, \\
+	\bm{N} &= \bm{r} \times \bm{F} \\
+	&=
+	\begin{vmatrix}
+	\bm{\hat{x}} & \bm{\hat{y}} & \bm{\hat{z}} \\
+	7 & 3 & 1 \\
+	-3 & 1 & 5
+	\end{vmatrix} \\
+	&= 15\bm{\hat{x}} - 3\bm{\hat{y}} + 7\bm{\hat{z}} - (\bm{\hat{x}} +35 \bm{\hat{y}} - 9\bm{\hat{z}}) \\    &= 14\bm{\hat{x}} - 38\bm{\hat{y}} + 16\bm{\hat{z}}\;(\textrm{N}\cdot\textrm{m}).
+\end{aligned}
+	\]
+%%%%%% 17.2题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	\bm{r_1} &=  7\bm{\hat{x}} + 3\bm{\hat{y}}+\bm{\hat{z}} - 10\bm{\hat{y}} = 7\bm{\hat{x}} -7 \bm{\hat{y}} + \bm{\hat{z}}, \\
+	\bm{N} &= \bm{r} \times \bm{F} \\
+	&=
+	\begin{vmatrix}
+	\bm{\hat{x}} & \bm{\hat{y}} & \bm{\hat{z}} \\
+	7 & -7 & 1 \\
+	-3 & 1 & 5
+	\end{vmatrix} \\
+	&= -35\bm{\hat{x}} - 3\bm{\hat{y}} + 7\bm{\hat{z}} - (\bm{\hat{x}} +35 \bm{\hat{y}} + 21 \bm{\hat{z}}) \\    &= -36\bm{\hat{x}} - 38\bm{\hat{y}} - 14\bm{\hat{z}}\;(\textrm{N}\cdot\textrm{m}).
+\end{aligned}
+	\]
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{速度和加速度，矢量的微商}
+\begin{enumerate}[(a)]
+%%%%%% 18.1题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	\bm{v}
+	&= \frac{\mathrm{d}\bm{r}}{\mathrm{d}t} \\
+	&= \left(\frac{\mathrm{d}16t}{\mathrm{d}t}\bm{\hat{x}} + 16t\frac{\mathrm{d}\bm{\hat{x}}}{\mathrm{d}t}\right) + \left(\frac{\mathrm{d}25t^2}{\mathrm{d}t}\bm{\hat{y}} + 25t^2\frac{\mathrm{d}\bm{\hat{y}}}{\mathrm{d}t}\right) +  \left(\frac{\mathrm{d}33}{\mathrm{d}t}\bm{\hat{z}} + 33\frac{\mathrm{d}\bm{\hat{z}}}{\mathrm{d}t}\right) \\
+	&= 16\bm{\hat{x}} + 50t\bm{\hat{y}}, \\
+	\bm{a}
+	&= \frac{\mathrm{d}\bm{v}}{\mathrm{d}t} = 50\bm{\hat{y}}.
+\end{aligned}
+	\]
+%%%%%% 18.2题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	\bm{v}
+	&= \frac{\mathrm{d}\bm{r}}{\mathrm{d}t} = 150\cos(15t)\bm{\hat{x}} + 35\bm{\hat{y}} + 6e^{6t}\bm{\hat{z}}, \\
+	\bm{a}
+	&= \frac{\mathrm{d}\bm{v}}{\mathrm{d}t} = -2250\sin(15t)\bm{\hat{x}} + 36e^{6t}\bm{\hat{z}}.
+\end{aligned}
+	\]
+\end{enumerate}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{随机运动}
+\textcolor{red}{\bfseries{不会做！}}
+
+\textcolor{red}{可以参考《费曼物理学讲义（新千年版）第$ \; 1 \; $卷》第 6 章的$ \S $ 6-3 无规行走。}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{不变性}
+\begin{enumerate}[(a)]
+%%%%%% 20.1题  %%%%%%%%%%%%%%
+	\item
+	如下图（\ref{2_20a}）所示，
+	\[
+	\begin{aligned}
+	&\bm{\hat{x'}} = |\bm{\hat{x'}}|\cos(\theta)\bm{\hat{x}} + |\bm{\hat{x'}}|\sin(\theta)\bm{\hat{y}} = \cos(\theta)\bm{\hat{x}} + \sin(\theta)\bm{\hat{y}},\\
+	&\bm{\hat{y'}} = -|\bm{\hat{y'}}|\sin(\theta)\bm{\hat{x}} + |\bm{\hat{y'}}|\cos(\theta)\bm{\hat{y}} =
+	- \sin(\theta)\bm{\hat{x}} + \cos(\theta)\bm{\hat{y}}.
+\end{aligned}
+	\]
+%%%%%% 20.2题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	&\because \quad
+	\begin{aligned}
+	\bm{A}
+	&= A'_x\bm{\hat{x'}} + A'_y\bm{\hat{y'}} + A'_z\bm{\hat{z'}},\\
+	&=A'_x(\cos(\theta)\bm{\hat{x}} + \sin(\theta)\bm{\hat{y}}) + A'_y(- \sin(\theta)\bm{\hat{x}} + \cos(\theta)\bm{\hat{y}}) + A'_z\bm{\hat{z}}. \\
+\end{aligned} \\
+	&\therefore \quad
+	\left\{
+	\begin{aligned}
+	&A'_x\cos(\theta) - A'_y\sin(\theta) = A_x, \\
+	&A'_x\sin(\theta) + A'_y\cos(\theta) = A_y, \\
+	&A'_z = A_z
+\end{aligned}
+	\right.
+\end{aligned}
+	\]
+%%%%%% 20.2题  %%%%%%%%%%%%%%
+	\item
+	\[
+	\begin{aligned}
+	\because \quad
+	&A_x^2 = {A'_x}^2\cos\theta^2 - 2A'_xA'_y\sin\theta\cos\theta + {A'_y}^2\sin\theta^2, \\
+	&A_y^2 = {A'_x}^2\sin\theta^2 + 2A'_xA'_y\sin\theta\cos\theta + {A'_y}^2\cos\theta^2, \\
+	&A_z^2 = {A'_z}^2. \\
+	\therefore \quad
+	&A_x^2 + A_y^2 + A_z^2 ={ A'_x}^2(\cos\theta^2 + \sin\theta^2) +  {A'_y}^2(\cos\theta^2 + \sin\theta^2) + {A'_z}^2 = {A'_x}^2 +{ A'_y}^2 +{ A'_z}^2
+\end{aligned}
+	\]
+\end{enumerate}
+
+
+%%%%以下画图时间
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{2_20a.png}
+	\caption{}
+	\label{2_20a}
+\end{figure}
+%%%
+%%%
+%%%
+%%%
+%%%
+\subsection{数学附录}
+\subsubsection{对时间的微商，速度和加速度}
+\subsubsection{角度}
+\subsubsection{函数$\bm{e^x}$}
+\subsubsection{级数展开}
+\subsubsection{矢量与球极坐标}
+
+
+
+
+

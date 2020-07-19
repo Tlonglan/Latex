@@ -1,0 +1,79 @@
+% !Mode:: "TeX:UTF-8"
+%!TEX program = xelatex
+
+
+\documentclass[a4paper,12pt,UTF8]{ctexart}
+%\documentclass[a4paper,12pt]{article}%A4纸，正文为小四号字，对应12pt
+
+\usepackage{titletoc}%自定义目录页样式
+%\usepackage[UTF8]{ctex}
+
+
+\usepackage{picinpar,graphicx}%图像 
+\usepackage{subfig}%组合图像
+\graphicspath{{插图/}}%表示在该目录下存放有一个图片
+
+\usepackage{hyperref}%超链接宏包
+\usepackage{enumerate}%用于列表环境自定义编号
+\usepackage{titlesec}%改变章节编号形式
+
+\usepackage{bm}%粗黑斜体的宏包，可以很方便表示矢量
+\usepackage{amsmath}%数学公式换行、对齐
+\usepackage{textcomp,gensymb}%调用常用的数学符号
+\usepackage{amssymb}%调用常用的数学符号
+
+\usepackage{tikz}
+
+\usepackage{color}%设置字体颜色
+
+\usepackage{datetime}%读取系统时间
+
+
+\begin{document}
+%--------------- 目录页格式定制 ---------------
+\titlecontents{section}
+	[0em]
+	{\bf}
+	{\contentslabel{2em}}
+	{}
+	{\titlerule*[1em]{$\cdot$}\contentspage}
+\setcounter{tocdepth}{1}
+
+%--------------- 章节编号形式定制 ---------------
+\titleformat{\section}{\centering\Huge\bfseries}{第\,\thesection\,章}{1em}{}
+
+
+
+% ----------- 封面 ---------------
+\begin{center}  % 居中
+\quad \\
+\vspace{1cm}  % 间距
+\heiti{\Huge{{《伯克利物理学教程》\textcolor[rgb]{1,0,1}{（力学卷）}\par 答案解析}}} \\
+\vspace{1cm}
+\includegraphics[width=0.65\textwidth]{伯克利物理学教程（力学）.jpg} \\
+\vspace{1cm}
+\Large {\xxivtime \, \today} \\
+%\Large{\renewcommand{\today}{\number\year 年 \number\month 月 \number\day 日}\today} \\
+\vspace{0.5cm}
+蓝天龙
+\thispagestyle{empty}
+\end{center}
+
+
+
+%正文
+\newpage
+\tableofcontents\setcounter{page}{0} \thispagestyle{empty}
+
+\clearpage
+\input{chapter01.tex}
+
+\clearpage
+\input{chapter02.tex}
+
+\clearpage
+\input{chapter03.tex}
+
+\end{document}
+
+
